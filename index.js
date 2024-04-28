@@ -11,7 +11,11 @@
 
 // Part 1 answer 👇🏻 ...
 
-
+let fullName = "Fatemah"
+const yearOfBirth = 1999
+let hobby = "Reading"
+let funFact = ""
+const image = "https://i.pinimg.com/originals/49/d8/bd/49d8bd8237695866b736f04534c94aa3.jpg"
 
 
 
@@ -29,30 +33,30 @@
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
+const fullNameString = `My name is ${fullName}`;
+const yearOfBirthString = `I am  ${ 2024 - yearOfBirth} years old`
+const hobbyString = `My hobby is ${hobby}`
 
 
 
 
-/**
- * Part 3: Re-assignment
- * Increment your hacker score
- * */
+  /**
+   * Part 3: Re-assignment
+   * Increment your hacker score
+   * */
 
-let stars = 0;
+  let stars = 0;
 
-function incrementBy1() {
-  // Increment stars by 1 👇🏻
+function incrementBy1 () {
+  stars = stars +1 
 }
 function decrementBy1() {
-  // decrement stars by 1 👇🏻
+  stars = stars -1
 }
 
 function incrementBy2() {
-  // Increment stars by 2 👇🏻
+  stars = stars +2
 }
 function decrementBy2() {
-  // decrement stars by 2 👇🏻
+  stars = stars -2
 }
